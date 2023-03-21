@@ -1,10 +1,10 @@
-# Analisando dados de roubos de celular
+# Analisando dados de crimes (escolha o seu dataset)
 Algumas perguntas com relação ao conjunto podem ser respondidas
 
-Como os roubos de celular evoluíram em relação ao tempo e como podem evoluir nos próximos anos?
+Como o crime evoluiu em relação ao tempo e como podem evoluir nos próximos anos?
 Quais são os períodos mais perigosos?
-Quais são os logradouros, tipos de locais, bairros e regiões com maiores índices de roubos de celular?
-Quais os veículos mais visados pelos ladrões para roubar um celular de dentro de um veículo?
+Quais são os logradouros, tipos de locais, bairros e regiões com maiores índices deste crime?
+Quais os objetos/situação mais visados pelos crijminosos?
 Dataset disponível em: http://www.ssp.sp.gov.br/transparenciassp/Default.aspx
 
 # Leitura dos dados

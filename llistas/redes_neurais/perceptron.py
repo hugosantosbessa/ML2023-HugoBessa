@@ -1,4 +1,5 @@
 class Perceptron(object):
+    
     """Perceptron classifier.
 
     Parameters
@@ -40,6 +41,7 @@ class Perceptron(object):
         self : object
 
         """
+        import numpy as np
         rgen = np.random.RandomState(self.random_state)
         self.w_ = rgen.normal(loc=0.0, scale=0.01, size=1 + X.shape[1])
         self.errors_ = []
@@ -60,4 +62,4 @@ class Perceptron(object):
 
     def predict(self, X):
         """Return class label after unit step"""
-        return np.where(self.net_input(X) >= 0.0, 1, -1)
+        return np.where(self.net_input(X) >= 0.0, 1, 0)

@@ -1,0 +1,21 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label="step <= 718.5\ngini = 0.003\nsamples = 5090096\nvalue = [5083503, 6593]\nclass = Nao eh Fraude", fillcolor="#e58139"] ;
+1 [label="amount <= 2554656.5\ngini = 0.002\nsamples = 5089856\nvalue = [5083503, 6353]\nclass = Nao eh Fraude", fillcolor="#e58139"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="amount <= 604933.656\ngini = 0.002\nsamples = 5066312\nvalue = [5061035, 5277]\nclass = Nao eh Fraude", fillcolor="#e58139"] ;
+1 -> 2 ;
+3 [label="gini = 0.001\nsamples = 4891613\nvalue = [4888042, 3571]\nclass = Nao eh Fraude", fillcolor="#e58139"] ;
+2 -> 3 ;
+4 [label="gini = 0.019\nsamples = 174699\nvalue = [172993, 1706]\nclass = Nao eh Fraude", fillcolor="#e5823b"] ;
+2 -> 4 ;
+5 [label="oldbalanceOrg <= 2460604.375\ngini = 0.087\nsamples = 23544\nvalue = [22468, 1076]\nclass = Nao eh Fraude", fillcolor="#e68742"] ;
+1 -> 5 ;
+6 [label="gini = 0.0\nsamples = 22464\nvalue = [22464, 0]\nclass = Nao eh Fraude", fillcolor="#e58139"] ;
+5 -> 6 ;
+7 [label="gini = 0.007\nsamples = 1080\nvalue = [4, 1076]\nclass = Eh Fraude", fillcolor="#3a9de5"] ;
+5 -> 7 ;
+8 [label="gini = 0.0\nsamples = 240\nvalue = [0, 240]\nclass = Eh Fraude", fillcolor="#399de5"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+}
